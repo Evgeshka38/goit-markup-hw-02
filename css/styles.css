@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #fff;
   color: #434455;
 }
@@ -41,14 +41,14 @@ p {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.logo span {
-  color: #4d5ae5;
+.logo-part-text {
+  color: #2e2f42;
 }
 
 .main-menu > ul > li > a {
@@ -59,8 +59,13 @@ p {
   color: #2e2f42;
 }
 
-.main-menu > ul > li > a:hover {
-  columns: #404bbf;
+.menu-item:hover,
+.menu-item:focus {
+  color: #404bbf;
+}
+
+.header-contacts {
+  font-style: normal;
 }
 
 .header-contacts a {
@@ -80,20 +85,17 @@ p {
   background: #2e2f42;
 }
 
-.header-baner h1 {
+.header-baner-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
-.header-baner button {
-  border-radius: 4px;
-  padding-block: 16px;
-  padding-inline: 32px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.header-baner-button {
+  font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -103,7 +105,8 @@ p {
   cursor: pointer;
 }
 
-.header-baner button:hover {
+.header-baner-button:hover,
+.header-baner-button:focus {
   background: #404bbf;
 }
 
@@ -112,28 +115,33 @@ p {
 }
 
 .our-team li {
-  border-radius: 0 0 4px 4px;
-  padding-block: 0px 32px;
-  padding-inline: 0px;
-  width: 264px;
-  height: 380px;
-  box-shadow:
-    0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16),
-    0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 
-.our-team h3,
-.our-team p {
+.values-item-title,
+.values-item-text {
   text-align: center;
 }
-
-.our-portfolio li {
-  border: 1px solid #e7e9fc;
-  width: 360px;
-  height: 420px;
+.values-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
+.our-team-title {
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+
+.team-item-text {
+  font-size: 16px;
+}
+
+.our-portfolio-title {
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+
 .footer {
   background: #2e2f42;
 }
