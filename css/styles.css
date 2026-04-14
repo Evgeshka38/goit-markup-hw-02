@@ -147,9 +147,17 @@ p {
 }
 
 .footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
-
+.footer-logo-part-text {
+  color: #f4f4fd;
+}
 .footer p {
   font-size: 16px;
   line-height: 1.5;
