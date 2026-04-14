@@ -119,10 +119,10 @@ p {
 }
 
 .values-item-title,
-.values-item-text {
+.value-text {
   text-align: center;
 }
-.values-item-text {
+.value-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -146,9 +146,10 @@ p {
   background: #2e2f42;
 }
 
-.footer .logo {
-  color: #f4f4fd;
+.footer-logo {
+  color: #4d5ae5;
 }
+
 .footer p {
   font-size: 16px;
   line-height: 1.5;
